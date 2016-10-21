@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'TestKitchen1607' do
+    pod 'Alamofire'
+    pod 'SnapKit','~>0.22.0'
+   
+end
+

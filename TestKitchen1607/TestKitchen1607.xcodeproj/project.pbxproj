@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959FDEADB3C2C1BB14FFCBBB /* Pods_TestKitchen1607.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A93180868F549B6D35A3271 /* Pods_TestKitchen1607.framework */; };
+		BC1414451DB9A9CE005C4CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414441DB9A9CE005C4CEE /* AppDelegate.swift */; };
+		BC1414471DB9A9CE005C4CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414461DB9A9CE005C4CEE /* ViewController.swift */; };
+		BC14144A1DB9A9CE005C4CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC1414481DB9A9CE005C4CEE /* Main.storyboard */; };
+		BC14144C1DB9A9CE005C4CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC14144B1DB9A9CE005C4CEE /* Assets.xcassets */; };
+		BC14144F1DB9A9CE005C4CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC14144D1DB9A9CE005C4CEE /* LaunchScreen.storyboard */; };
+		BC14145A1DB9A9CE005C4CEE /* TestKitchen1607Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414591DB9A9CE005C4CEE /* TestKitchen1607Tests.swift */; };
+		BC1414651DB9A9CF005C4CEE /* TestKitchen1607UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414641DB9A9CF005C4CEE /* TestKitchen1607UITests.swift */; };
+		BC14149B1DB9AA05005C4CEE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414741DB9AA05005C4CEE /* BaseViewController.swift */; };
+		BC14149F1DB9AAA4005C4CEE /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC14149E1DB9AAA4005C4CEE /* IngredientViewController.swift */; };
+		BC1414A11DB9AAB8005C4CEE /* MallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414A01DB9AAB8005C4CEE /* MallViewController.swift */; };
+		BC1414A31DB9AAC9005C4CEE /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414A21DB9AAC9005C4CEE /* MyViewController.swift */; };
+		BC1414A51DB9AAE5005C4CEE /* FoodClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414A41DB9AAE5005C4CEE /* FoodClassViewController.swift */; };
+		BC1414A71DB9AB1A005C4CEE /* ComnunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414A61DB9AB1A005C4CEE /* ComnunityViewController.swift */; };
+		BC1414A91DB9ABA8005C4CEE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414A81DB9ABA7005C4CEE /* MainTabBarController.swift */; };
+		BC1414C71DB9AFA3005C4CEE /* community_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414AB1DB9AFA3005C4CEE /* community_normal@2x.png */; };
+		BC1414C81DB9AFA3005C4CEE /* community_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414AC1DB9AFA3005C4CEE /* community_normal@3x.png */; };
+		BC1414C91DB9AFA3005C4CEE /* community_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414AD1DB9AFA3005C4CEE /* community_select@2x.png */; };
+		BC1414CA1DB9AFA3005C4CEE /* community_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414AE1DB9AFA3005C4CEE /* community_select@3x.png */; };
+		BC1414CB1DB9AFA3005C4CEE /* home_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414AF1DB9AFA3005C4CEE /* home_normal@2x.png */; };
+		BC1414CC1DB9AFA3005C4CEE /* home_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B01DB9AFA3005C4CEE /* home_normal@3x.png */; };
+		BC1414CD1DB9AFA3005C4CEE /* home_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B11DB9AFA3005C4CEE /* home_select@2x.png */; };
+		BC1414CE1DB9AFA3005C4CEE /* home_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B21DB9AFA3005C4CEE /* home_select@3x.png */; };
+		BC1414CF1DB9AFA3005C4CEE /* mine_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B31DB9AFA3005C4CEE /* mine_normal@2x.png */; };
+		BC1414D01DB9AFA3005C4CEE /* mine_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B41DB9AFA3005C4CEE /* mine_normal@3x.png */; };
+		BC1414D11DB9AFA3005C4CEE /* mine_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B51DB9AFA3005C4CEE /* mine_select@2x.png */; };
+		BC1414D21DB9AFA3005C4CEE /* mine_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B61DB9AFA3005C4CEE /* mine_select@3x.png */; };
+		BC1414D31DB9AFA3005C4CEE /* shike_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B71DB9AFA3005C4CEE /* shike_normal@2x.png */; };
+		BC1414D41DB9AFA3005C4CEE /* shike_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B81DB9AFA3005C4CEE /* shike_normal@3x.png */; };
+		BC1414D51DB9AFA3005C4CEE /* shike_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414B91DB9AFA3005C4CEE /* shike_select@2x.png */; };
+		BC1414D61DB9AFA3005C4CEE /* shike_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414BA1DB9AFA3005C4CEE /* shike_select@3x.png */; };
+		BC1414D71DB9AFA3005C4CEE /* shop_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414BB1DB9AFA3005C4CEE /* shop_normal@2x.png */; };
+		BC1414D81DB9AFA3005C4CEE /* shop_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414BC1DB9AFA3005C4CEE /* shop_normal@3x.png */; };
+		BC1414D91DB9AFA3005C4CEE /* shop_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414BD1DB9AFA3005C4CEE /* shop_select@2x.png */; };
+		BC1414DA1DB9AFA3005C4CEE /* shop_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1414BE1DB9AFA3005C4CEE /* shop_select@3x.png */; };
+		BC1414DC1DB9B981005C4CEE /* UIView+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414DB1DB9B981005C4CEE /* UIView+Common.swift */; };
+		BC1414DE1DB9BA0C005C4CEE /* UILabel+common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414DD1DB9BA0C005C4CEE /* UILabel+common.swift */; };
+		BC1414E01DB9BB8A005C4CEE /* UIButton+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414DF1DB9BB8A005C4CEE /* UIButton+Common.swift */; };
+		BC1414E21DB9C387005C4CEE /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1414E11DB9C387005C4CEE /* Const.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1414561DB9A9CE005C4CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1414391DB9A9CE005C4CEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1414401DB9A9CE005C4CEE;
+			remoteInfo = TestKitchen1607;
+		};
+		BC1414611DB9A9CF005C4CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC1414391DB9A9CE005C4CEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC1414401DB9A9CE005C4CEE;
+			remoteInfo = TestKitchen1607;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A93180868F549B6D35A3271 /* Pods_TestKitchen1607.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen1607.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6EA1F10074E97597499330 /* Pods-TestKitchen1607.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen1607.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen1607/Pods-TestKitchen1607.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1414411DB9A9CE005C4CEE /* TestKitchen1607.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen1607.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1414441DB9A9CE005C4CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC1414461DB9A9CE005C4CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC1414491DB9A9CE005C4CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC14144B1DB9A9CE005C4CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC14144E1DB9A9CE005C4CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC1414501DB9A9CE005C4CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1414551DB9A9CE005C4CEE /* TestKitchen1607Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKitchen1607Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1414591DB9A9CE005C4CEE /* TestKitchen1607Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKitchen1607Tests.swift; sourceTree = "<group>"; };
+		BC14145B1DB9A9CE005C4CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1414601DB9A9CF005C4CEE /* TestKitchen1607UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKitchen1607UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1414641DB9A9CF005C4CEE /* TestKitchen1607UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKitchen1607UITests.swift; sourceTree = "<group>"; };
+		BC1414661DB9A9CF005C4CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC1414741DB9AA05005C4CEE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BC14149E1DB9AAA4005C4CEE /* IngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		BC1414A01DB9AAB8005C4CEE /* MallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallViewController.swift; sourceTree = "<group>"; };
+		BC1414A21DB9AAC9005C4CEE /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		BC1414A41DB9AAE5005C4CEE /* FoodClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodClassViewController.swift; sourceTree = "<group>"; };
+		BC1414A61DB9AB1A005C4CEE /* ComnunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComnunityViewController.swift; sourceTree = "<group>"; };
+		BC1414A81DB9ABA7005C4CEE /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		BC1414AB1DB9AFA3005C4CEE /* community_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@2x.png"; sourceTree = "<group>"; };
+		BC1414AC1DB9AFA3005C4CEE /* community_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_normal@3x.png"; sourceTree = "<group>"; };
+		BC1414AD1DB9AFA3005C4CEE /* community_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_select@2x.png"; sourceTree = "<group>"; };
+		BC1414AE1DB9AFA3005C4CEE /* community_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "community_select@3x.png"; sourceTree = "<group>"; };
+		BC1414AF1DB9AFA3005C4CEE /* home_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_normal@2x.png"; sourceTree = "<group>"; };
+		BC1414B01DB9AFA3005C4CEE /* home_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_normal@3x.png"; sourceTree = "<group>"; };
+		BC1414B11DB9AFA3005C4CEE /* home_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_select@2x.png"; sourceTree = "<group>"; };
+		BC1414B21DB9AFA3005C4CEE /* home_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_select@3x.png"; sourceTree = "<group>"; };
+		BC1414B31DB9AFA3005C4CEE /* mine_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_normal@2x.png"; sourceTree = "<group>"; };
+		BC1414B41DB9AFA3005C4CEE /* mine_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_normal@3x.png"; sourceTree = "<group>"; };
+		BC1414B51DB9AFA3005C4CEE /* mine_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_select@2x.png"; sourceTree = "<group>"; };
+		BC1414B61DB9AFA3005C4CEE /* mine_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mine_select@3x.png"; sourceTree = "<group>"; };
+		BC1414B71DB9AFA3005C4CEE /* shike_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_normal@2x.png"; sourceTree = "<group>"; };
+		BC1414B81DB9AFA3005C4CEE /* shike_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_normal@3x.png"; sourceTree = "<group>"; };
+		BC1414B91DB9AFA3005C4CEE /* shike_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_select@2x.png"; sourceTree = "<group>"; };
+		BC1414BA1DB9AFA3005C4CEE /* shike_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shike_select@3x.png"; sourceTree = "<group>"; };
+		BC1414BB1DB9AFA3005C4CEE /* shop_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_normal@2x.png"; sourceTree = "<group>"; };
+		BC1414BC1DB9AFA3005C4CEE /* shop_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_normal@3x.png"; sourceTree = "<group>"; };
+		BC1414BD1DB9AFA3005C4CEE /* shop_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_select@2x.png"; sourceTree = "<group>"; };
+		BC1414BE1DB9AFA3005C4CEE /* shop_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shop_select@3x.png"; sourceTree = "<group>"; };
+		BC1414DB1DB9B981005C4CEE /* UIView+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Common.swift"; sourceTree = "<group>"; };
+		BC1414DD1DB9BA0C005C4CEE /* UILabel+common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+common.swift"; sourceTree = "<group>"; };
+		BC1414DF1DB9BB8A005C4CEE /* UIButton+Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Common.swift"; sourceTree = "<group>"; };
+		BC1414E11DB9C387005C4CEE /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		BF6F013767078E564CD8B534 /* Pods-TestKitchen1607.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen1607.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen1607/Pods-TestKitchen1607.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC14143E1DB9A9CE005C4CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959FDEADB3C2C1BB14FFCBBB /* Pods_TestKitchen1607.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1414521DB9A9CE005C4CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC14145D1DB9A9CF005C4CEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AFA9B42403B42F0877E9482 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C6EA1F10074E97597499330 /* Pods-TestKitchen1607.debug.xcconfig */,
+				BF6F013767078E564CD8B534 /* Pods-TestKitchen1607.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C9B657E671D3D288F606947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A93180868F549B6D35A3271 /* Pods_TestKitchen1607.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC1414381DB9A9CE005C4CEE = {
+			isa = PBXGroup;
+			children = (
+				BC1414431DB9A9CE005C4CEE /* TestKitchen1607 */,
+				BC1414581DB9A9CE005C4CEE /* TestKitchen1607Tests */,
+				BC1414631DB9A9CF005C4CEE /* TestKitchen1607UITests */,
+				BC1414421DB9A9CE005C4CEE /* Products */,
+				2AFA9B42403B42F0877E9482 /* Pods */,
+				4C9B657E671D3D288F606947 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC1414421DB9A9CE005C4CEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414411DB9A9CE005C4CEE /* TestKitchen1607.app */,
+				BC1414551DB9A9CE005C4CEE /* TestKitchen1607Tests.xctest */,
+				BC1414601DB9A9CF005C4CEE /* TestKitchen1607UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1414431DB9A9CE005C4CEE /* TestKitchen1607 */ = {
+			isa = PBXGroup;
+			children = (
+				BC14149A1DB9AA05005C4CEE /* resources(资源) */,
+				BC1414721DB9AA05005C4CEE /* classes */,
+				BC1414441DB9A9CE005C4CEE /* AppDelegate.swift */,
+				BC1414461DB9A9CE005C4CEE /* ViewController.swift */,
+				BC1414481DB9A9CE005C4CEE /* Main.storyboard */,
+				BC14144B1DB9A9CE005C4CEE /* Assets.xcassets */,
+				BC14144D1DB9A9CE005C4CEE /* LaunchScreen.storyboard */,
+				BC1414501DB9A9CE005C4CEE /* Info.plist */,
+			);
+			path = TestKitchen1607;
+			sourceTree = "<group>";
+		};
+		BC1414581DB9A9CE005C4CEE /* TestKitchen1607Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414591DB9A9CE005C4CEE /* TestKitchen1607Tests.swift */,
+				BC14145B1DB9A9CE005C4CEE /* Info.plist */,
+			);
+			path = TestKitchen1607Tests;
+			sourceTree = "<group>";
+		};
+		BC1414631DB9A9CF005C4CEE /* TestKitchen1607UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414641DB9A9CF005C4CEE /* TestKitchen1607UITests.swift */,
+				BC1414661DB9A9CF005C4CEE /* Info.plist */,
+			);
+			path = TestKitchen1607UITests;
+			sourceTree = "<group>";
+		};
+		BC1414721DB9AA05005C4CEE /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414731DB9AA05005C4CEE /* common(公共类) */,
+				BC1414751DB9AA05005C4CEE /* Community(社区) */,
+				BC14147A1DB9AA05005C4CEE /* FoodClass(食课) */,
+				BC14147F1DB9AA05005C4CEE /* Ingredient(食材) */,
+				BC1414901DB9AA05005C4CEE /* mall(商城) */,
+				BC1414951DB9AA05005C4CEE /* My(我的) */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		BC1414731DB9AA05005C4CEE /* common(公共类) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414741DB9AA05005C4CEE /* BaseViewController.swift */,
+				BC1414A81DB9ABA7005C4CEE /* MainTabBarController.swift */,
+				BC1414DB1DB9B981005C4CEE /* UIView+Common.swift */,
+				BC1414DD1DB9BA0C005C4CEE /* UILabel+common.swift */,
+				BC1414DF1DB9BB8A005C4CEE /* UIButton+Common.swift */,
+				BC1414E11DB9C387005C4CEE /* Const.swift */,
+			);
+			path = "common(公共类)";
+			sourceTree = "<group>";
+		};
+		BC1414751DB9AA05005C4CEE /* Community(社区) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414761DB9AA05005C4CEE /* main(主要模块) */,
+			);
+			path = "Community(社区)";
+			sourceTree = "<group>";
+		};
+		BC1414761DB9AA05005C4CEE /* main(主要模块) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414771DB9AA05005C4CEE /* Controller */,
+				BC1414781DB9AA05005C4CEE /* Model */,
+				BC1414791DB9AA05005C4CEE /* View */,
+			);
+			path = "main(主要模块)";
+			sourceTree = "<group>";
+		};
+		BC1414771DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414A61DB9AB1A005C4CEE /* ComnunityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1414781DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1414791DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC14147A1DB9AA05005C4CEE /* FoodClass(食课) */ = {
+			isa = PBXGroup;
+			children = (
+				BC14147B1DB9AA05005C4CEE /* main(主要模块) */,
+			);
+			path = "FoodClass(食课)";
+			sourceTree = "<group>";
+		};
+		BC14147B1DB9AA05005C4CEE /* main(主要模块) */ = {
+			isa = PBXGroup;
+			children = (
+				BC14147C1DB9AA05005C4CEE /* Controller */,
+				BC14147D1DB9AA05005C4CEE /* Model */,
+				BC14147E1DB9AA05005C4CEE /* View */,
+			);
+			path = "main(主要模块)";
+			sourceTree = "<group>";
+		};
+		BC14147C1DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414A41DB9AAE5005C4CEE /* FoodClassViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC14147D1DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC14147E1DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC14147F1DB9AA05005C4CEE /* Ingredient(食材) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414801DB9AA05005C4CEE /* category(分类) */,
+				BC1414841DB9AA05005C4CEE /* main(主要模块) */,
+				BC1414881DB9AA05005C4CEE /* metertial(食材) */,
+				BC14148C1DB9AA05005C4CEE /* recommend(推荐) */,
+			);
+			path = "Ingredient(食材)";
+			sourceTree = "<group>";
+		};
+		BC1414801DB9AA05005C4CEE /* category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414811DB9AA05005C4CEE /* Controller */,
+				BC1414821DB9AA05005C4CEE /* Model */,
+				BC1414831DB9AA05005C4CEE /* View */,
+			);
+			path = "category(分类)";
+			sourceTree = "<group>";
+		};
+		BC1414811DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1414821DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1414831DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC1414841DB9AA05005C4CEE /* main(主要模块) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414851DB9AA05005C4CEE /* Controller */,
+				BC1414861DB9AA05005C4CEE /* Model */,
+				BC1414871DB9AA05005C4CEE /* View */,
+			);
+			path = "main(主要模块)";
+			sourceTree = "<group>";
+		};
+		BC1414851DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC14149E1DB9AAA4005C4CEE /* IngredientViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1414861DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1414871DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC1414881DB9AA05005C4CEE /* metertial(食材) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414891DB9AA05005C4CEE /* Controller */,
+				BC14148A1DB9AA05005C4CEE /* Model */,
+				BC14148B1DB9AA05005C4CEE /* View */,
+			);
+			path = "metertial(食材)";
+			sourceTree = "<group>";
+		};
+		BC1414891DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC14148A1DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC14148B1DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC14148C1DB9AA05005C4CEE /* recommend(推荐) */ = {
+			isa = PBXGroup;
+			children = (
+				BC14148D1DB9AA05005C4CEE /* Controller */,
+				BC14148E1DB9AA05005C4CEE /* Model */,
+				BC14148F1DB9AA05005C4CEE /* View */,
+			);
+			path = "recommend(推荐)";
+			sourceTree = "<group>";
+		};
+		BC14148D1DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC14148E1DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC14148F1DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC1414901DB9AA05005C4CEE /* mall(商城) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414911DB9AA05005C4CEE /* main(主要模块) */,
+			);
+			path = "mall(商城)";
+			sourceTree = "<group>";
+		};
+		BC1414911DB9AA05005C4CEE /* main(主要模块) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414921DB9AA05005C4CEE /* Controller */,
+				BC1414931DB9AA05005C4CEE /* Model */,
+				BC1414941DB9AA05005C4CEE /* View */,
+			);
+			path = "main(主要模块)";
+			sourceTree = "<group>";
+		};
+		BC1414921DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414A01DB9AAB8005C4CEE /* MallViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1414931DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1414941DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC1414951DB9AA05005C4CEE /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414961DB9AA05005C4CEE /* main(主要模块) */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		BC1414961DB9AA05005C4CEE /* main(主要模块) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414971DB9AA05005C4CEE /* Controller */,
+				BC1414981DB9AA05005C4CEE /* Model */,
+				BC1414991DB9AA05005C4CEE /* View */,
+			);
+			path = "main(主要模块)";
+			sourceTree = "<group>";
+		};
+		BC1414971DB9AA05005C4CEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414A21DB9AAC9005C4CEE /* MyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC1414981DB9AA05005C4CEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC1414991DB9AA05005C4CEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC14149A1DB9AA05005C4CEE /* resources(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414AA1DB9AFA3005C4CEE /* 标签栏 */,
+				BC1414BF1DB9AFA3005C4CEE /* 导航栏 */,
+				BC1414C01DB9AFA3005C4CEE /* 公共 */,
+				BC1414C11DB9AFA3005C4CEE /* 商城 */,
+				BC1414C21DB9AFA3005C4CEE /* 社区 */,
+				BC1414C31DB9AFA3005C4CEE /* 食材 */,
+				BC1414C41DB9AFA3005C4CEE /* 食课 */,
+				BC1414C51DB9AFA3005C4CEE /* 图标和启动图片 */,
+				BC1414C61DB9AFA3005C4CEE /* 我的 */,
+			);
+			name = "resources(资源)";
+			path = "classes/resources(资源)";
+			sourceTree = "<group>";
+		};
+		BC1414AA1DB9AFA3005C4CEE /* 标签栏 */ = {
+			isa = PBXGroup;
+			children = (
+				BC1414AB1DB9AFA3005C4CEE /* community_normal@2x.png */,
+				BC1414AC1DB9AFA3005C4CEE /* community_normal@3x.png */,
+				BC1414AD1DB9AFA3005C4CEE /* community_select@2x.png */,
+				BC1414AE1DB9AFA3005C4CEE /* community_select@3x.png */,
+				BC1414AF1DB9AFA3005C4CEE /* home_normal@2x.png */,
+				BC1414B01DB9AFA3005C4CEE /* home_normal@3x.png */,
+				BC1414B11DB9AFA3005C4CEE /* home_select@2x.png */,
+				BC1414B21DB9AFA3005C4CEE /* home_select@3x.png */,
+				BC1414B31DB9AFA3005C4CEE /* mine_normal@2x.png */,
+				BC1414B41DB9AFA3005C4CEE /* mine_normal@3x.png */,
+				BC1414B51DB9AFA3005C4CEE /* mine_select@2x.png */,
+				BC1414B61DB9AFA3005C4CEE /* mine_select@3x.png */,
+				BC1414B71DB9AFA3005C4CEE /* shike_normal@2x.png */,
+				BC1414B81DB9AFA3005C4CEE /* shike_normal@3x.png */,
+				BC1414B91DB9AFA3005C4CEE /* shike_select@2x.png */,
+				BC1414BA1DB9AFA3005C4CEE /* shike_select@3x.png */,
+				BC1414BB1DB9AFA3005C4CEE /* shop_normal@2x.png */,
+				BC1414BC1DB9AFA3005C4CEE /* shop_normal@3x.png */,
+				BC1414BD1DB9AFA3005C4CEE /* shop_select@2x.png */,
+				BC1414BE1DB9AFA3005C4CEE /* shop_select@3x.png */,
+			);
+			path = "标签栏";
+			sourceTree = "<group>";
+		};
+		BC1414BF1DB9AFA3005C4CEE /* 导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "导航栏";
+			sourceTree = "<group>";
+		};
+		BC1414C01DB9AFA3005C4CEE /* 公共 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "公共";
+			sourceTree = "<group>";
+		};
+		BC1414C11DB9AFA3005C4CEE /* 商城 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "商城";
+			sourceTree = "<group>";
+		};
+		BC1414C21DB9AFA3005C4CEE /* 社区 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "社区";
+			sourceTree = "<group>";
+		};
+		BC1414C31DB9AFA3005C4CEE /* 食材 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "食材";
+			sourceTree = "<group>";
+		};
+		BC1414C41DB9AFA3005C4CEE /* 食课 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "食课";
+			sourceTree = "<group>";
+		};
+		BC1414C51DB9AFA3005C4CEE /* 图标和启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "图标和启动图片";
+			sourceTree = "<group>";
+		};
+		BC1414C61DB9AFA3005C4CEE /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1414401DB9A9CE005C4CEE /* TestKitchen1607 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1414691DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607" */;
+			buildPhases = (
+				0A79C178BEC1E8061493E908 /* [CP] Check Pods Manifest.lock */,
+				BC14143D1DB9A9CE005C4CEE /* Sources */,
+				BC14143E1DB9A9CE005C4CEE /* Frameworks */,
+				BC14143F1DB9A9CE005C4CEE /* Resources */,
+				AADE18FCD407DEAB09C30A83 /* [CP] Embed Pods Frameworks */,
+				1205A63546AABBB7DE0C9AD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestKitchen1607;
+			productName = TestKitchen1607;
+			productReference = BC1414411DB9A9CE005C4CEE /* TestKitchen1607.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC1414541DB9A9CE005C4CEE /* TestKitchen1607Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC14146C1DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607Tests" */;
+			buildPhases = (
+				BC1414511DB9A9CE005C4CEE /* Sources */,
+				BC1414521DB9A9CE005C4CEE /* Frameworks */,
+				BC1414531DB9A9CE005C4CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1414571DB9A9CE005C4CEE /* PBXTargetDependency */,
+			);
+			name = TestKitchen1607Tests;
+			productName = TestKitchen1607Tests;
+			productReference = BC1414551DB9A9CE005C4CEE /* TestKitchen1607Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC14145F1DB9A9CF005C4CEE /* TestKitchen1607UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC14146F1DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607UITests" */;
+			buildPhases = (
+				BC14145C1DB9A9CF005C4CEE /* Sources */,
+				BC14145D1DB9A9CF005C4CEE /* Frameworks */,
+				BC14145E1DB9A9CF005C4CEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1414621DB9A9CF005C4CEE /* PBXTargetDependency */,
+			);
+			name = TestKitchen1607UITests;
+			productName = TestKitchen1607UITests;
+			productReference = BC1414601DB9A9CF005C4CEE /* TestKitchen1607UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1414391DB9A9CE005C4CEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jiangpeng;
+				TargetAttributes = {
+					BC1414401DB9A9CE005C4CEE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC1414541DB9A9CE005C4CEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC1414401DB9A9CE005C4CEE;
+					};
+					BC14145F1DB9A9CF005C4CEE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC1414401DB9A9CE005C4CEE;
+					};
+				};
+			};
+			buildConfigurationList = BC14143C1DB9A9CE005C4CEE /* Build configuration list for PBXProject "TestKitchen1607" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC1414381DB9A9CE005C4CEE;
+			productRefGroup = BC1414421DB9A9CE005C4CEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC1414401DB9A9CE005C4CEE /* TestKitchen1607 */,
+				BC1414541DB9A9CE005C4CEE /* TestKitchen1607Tests */,
+				BC14145F1DB9A9CF005C4CEE /* TestKitchen1607UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC14143F1DB9A9CE005C4CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1414CB1DB9AFA3005C4CEE /* home_normal@2x.png in Resources */,
+				BC14144F1DB9A9CE005C4CEE /* LaunchScreen.storyboard in Resources */,
+				BC1414CA1DB9AFA3005C4CEE /* community_select@3x.png in Resources */,
+				BC1414D21DB9AFA3005C4CEE /* mine_select@3x.png in Resources */,
+				BC1414D11DB9AFA3005C4CEE /* mine_select@2x.png in Resources */,
+				BC1414D51DB9AFA3005C4CEE /* shike_select@2x.png in Resources */,
+				BC1414D61DB9AFA3005C4CEE /* shike_select@3x.png in Resources */,
+				BC1414C71DB9AFA3005C4CEE /* community_normal@2x.png in Resources */,
+				BC1414CF1DB9AFA3005C4CEE /* mine_normal@2x.png in Resources */,
+				BC1414CC1DB9AFA3005C4CEE /* home_normal@3x.png in Resources */,
+				BC1414D41DB9AFA3005C4CEE /* shike_normal@3x.png in Resources */,
+				BC1414DA1DB9AFA3005C4CEE /* shop_select@3x.png in Resources */,
+				BC1414CE1DB9AFA3005C4CEE /* home_select@3x.png in Resources */,
+				BC14144C1DB9A9CE005C4CEE /* Assets.xcassets in Resources */,
+				BC1414D01DB9AFA3005C4CEE /* mine_normal@3x.png in Resources */,
+				BC1414C81DB9AFA3005C4CEE /* community_normal@3x.png in Resources */,
+				BC1414D81DB9AFA3005C4CEE /* shop_normal@3x.png in Resources */,
+				BC1414D91DB9AFA3005C4CEE /* shop_select@2x.png in Resources */,
+				BC1414D31DB9AFA3005C4CEE /* shike_normal@2x.png in Resources */,
+				BC1414CD1DB9AFA3005C4CEE /* home_select@2x.png in Resources */,
+				BC1414D71DB9AFA3005C4CEE /* shop_normal@2x.png in Resources */,
+				BC1414C91DB9AFA3005C4CEE /* community_select@2x.png in Resources */,
+				BC14144A1DB9A9CE005C4CEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1414531DB9A9CE005C4CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC14145E1DB9A9CF005C4CEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A79C178BEC1E8061493E908 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1205A63546AABBB7DE0C9AD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen1607/Pods-TestKitchen1607-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADE18FCD407DEAB09C30A83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestKitchen1607/Pods-TestKitchen1607-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC14143D1DB9A9CE005C4CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1414471DB9A9CE005C4CEE /* ViewController.swift in Sources */,
+				BC1414DC1DB9B981005C4CEE /* UIView+Common.swift in Sources */,
+				BC1414451DB9A9CE005C4CEE /* AppDelegate.swift in Sources */,
+				BC1414A91DB9ABA8005C4CEE /* MainTabBarController.swift in Sources */,
+				BC1414DE1DB9BA0C005C4CEE /* UILabel+common.swift in Sources */,
+				BC1414A11DB9AAB8005C4CEE /* MallViewController.swift in Sources */,
+				BC1414A31DB9AAC9005C4CEE /* MyViewController.swift in Sources */,
+				BC14149B1DB9AA05005C4CEE /* BaseViewController.swift in Sources */,
+				BC1414A71DB9AB1A005C4CEE /* ComnunityViewController.swift in Sources */,
+				BC1414A51DB9AAE5005C4CEE /* FoodClassViewController.swift in Sources */,
+				BC1414E01DB9BB8A005C4CEE /* UIButton+Common.swift in Sources */,
+				BC14149F1DB9AAA4005C4CEE /* IngredientViewController.swift in Sources */,
+				BC1414E21DB9C387005C4CEE /* Const.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1414511DB9A9CE005C4CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC14145A1DB9A9CE005C4CEE /* TestKitchen1607Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC14145C1DB9A9CF005C4CEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1414651DB9A9CF005C4CEE /* TestKitchen1607UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1414571DB9A9CE005C4CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1414401DB9A9CE005C4CEE /* TestKitchen1607 */;
+			targetProxy = BC1414561DB9A9CE005C4CEE /* PBXContainerItemProxy */;
+		};
+		BC1414621DB9A9CF005C4CEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC1414401DB9A9CE005C4CEE /* TestKitchen1607 */;
+			targetProxy = BC1414611DB9A9CF005C4CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC1414481DB9A9CE005C4CEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC1414491DB9A9CE005C4CEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC14144D1DB9A9CE005C4CEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC14144E1DB9A9CE005C4CEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1414671DB9A9CF005C4CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC1414681DB9A9CF005C4CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC14146A1DB9A9CF005C4CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6EA1F10074E97597499330 /* Pods-TestKitchen1607.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestKitchen1607/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC14146B1DB9A9CF005C4CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6F013767078E564CD8B534 /* Pods-TestKitchen1607.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestKitchen1607/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC14146D1DB9A9CF005C4CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestKitchen1607Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKitchen1607.app/TestKitchen1607";
+			};
+			name = Debug;
+		};
+		BC14146E1DB9A9CF005C4CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestKitchen1607Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestKitchen1607.app/TestKitchen1607";
+			};
+			name = Release;
+		};
+		BC1414701DB9A9CF005C4CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKitchen1607UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKitchen1607;
+			};
+			name = Debug;
+		};
+		BC1414711DB9A9CF005C4CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestKitchen1607UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-980681359.TestKitchen1607UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestKitchen1607;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC14143C1DB9A9CE005C4CEE /* Build configuration list for PBXProject "TestKitchen1607" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1414671DB9A9CF005C4CEE /* Debug */,
+				BC1414681DB9A9CF005C4CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1414691DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14146A1DB9A9CF005C4CEE /* Debug */,
+				BC14146B1DB9A9CF005C4CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC14146C1DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC14146D1DB9A9CF005C4CEE /* Debug */,
+				BC14146E1DB9A9CF005C4CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC14146F1DB9A9CF005C4CEE /* Build configuration list for PBXNativeTarget "TestKitchen1607UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1414701DB9A9CF005C4CEE /* Debug */,
+				BC1414711DB9A9CF005C4CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1414391DB9A9CE005C4CEE /* Project object */;
+}
